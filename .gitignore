@@ -27,3 +27,6 @@ build/
 # Coverage
 coverage/
 .nyc_output/
+
+# test http
+test.http
