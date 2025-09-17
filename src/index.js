@@ -6,3 +6,5 @@ const app = express();
 connectDB();
 
 app.use(express.json()); // for JSON body
+app.use(require("cors")());
+
